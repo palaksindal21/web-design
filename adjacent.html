@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Adjacent selector</title>
+        <style>
+            div+p{
+
+                background-color: seagreen;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Adjacent sibling Selector</h1>
+        <div>
+            <p>I am first inner paragraph</p>
+            <p>I am second inner paragraph</p>
+        </div>
+
+        <p>I am first outer paragraph</p>
+        <p>I am second outer paragraph</p>
+
+        <div>
+            <p>I am third inner paragraph<p>
+            <p>I am fourth inner paragraph<p>
+        </div>
+
+        <p>I am third outer paragraph</p>
+        <p>I am fourth paragraph</p>
+    </body>
+</html>

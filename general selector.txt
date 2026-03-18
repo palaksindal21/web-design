@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>General selector</title>
+        <style>
+            div~p{
+                background-color: skyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>General Selector</h1>
+        <div>
+            <p>I am first inner paragraph</p>
+            <p>I am second inner paragraph</p>
+        </div>
+
+        <p>I am first outer paragraph</p>
+        <p>I am second outer paragraph</p>
+
+        <div>
+            <p>I am third inner paragraph<p>
+            <p>I am fourth inner paragraph<p>
+        </div>
+
+        <p>I am third outer paragraph</p>
+        <p>I am fourth paragraph</p>
+    </body>
+</html>

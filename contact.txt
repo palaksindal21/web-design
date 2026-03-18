@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+ <style>
+
+         nav a{
+
+            text-decoration: none;
+            margin: 24px;
+            color:black;
+
+         }
+          
+         nav{
+
+            background-color: grey;
+            text-align: center;
+            padding:10px;
+            border-radius: 20px;
+        
+
+         }
+
+         nav a:hover{
+            background-color: darkgrey;
+            border: 2px solid black;
+            margin:17px;
+            padding:5px;
+         }
+
+         h1{
+
+            text-align: center;
+         }
+
+    </style>
+<body>
+    <nav>
+        <a href="navbar.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact us</h1>
+
+    <div>
+
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.8076126671635!2d75.78700077509671!3d23.177220779065657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396375afab59e2a9%3A0x9d6982473f710e9!2sJobsense%20Training%20%26%20Placement%20Institute!5e0!3m2!1sen!2sin!4v1749410391922!5m2!1sen!2sin" width="450" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>

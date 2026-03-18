@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Attribute selector</title>
+        <style>
+             input[name=name]{
+
+                border:2px solid lightblue;
+                padding:5px;
+                box-shadow: 7px 7px 7px 7px black;
+                border-radius: 10px;
+             }
+
+             input[name=email]{
+
+                border:2px solid lightblue;
+                padding:5px;
+                box-shadow: 7px 7px 7px 7px black;
+                border-radius: 10px;
+             }
+
+             input[name=password]{
+
+                border:2px solid lightblue;
+                padding:5px;
+                box-shadow: 7px 7px 7px 7px black;
+                border-radius: 10px;
+             }
+
+             input[name=number]{
+
+                border:2px solid lightblue;
+                padding:5px;
+                box-shadow: 7px 7px 7px 7px black;
+                border-radius: 10px;
+             }
+
+             input[type=submit]{
+
+                border:2px solid lightcoral;
+                padding:5px;
+                box-shadow: 7px 7px 7px 7px black;
+                border-radius: 10px;
+                background-color: lightcoral;
+             }
+
+             div[id=div1]{
+
+                border: 2px solid black;
+                width:250px;
+                padding: 10px;
+                margin-top: 50px;
+                margin-left: 600px;
+                border-radius: 10px;
+                box-shadow: 7px 7px 7px 7px black;
+                background-color: wheat;
+            
+             }
+
+             h1[id=head]{
+
+                text-align: center;
+             }
+
+        </style>
+    </head>
+    <body>
+        <h1 id="head">Attribute selector</h1>
+
+        <div id="div1">
+          <h1 id="heading">Sign Up</h1>
+
+          <form>
+            <input type="text" name="name" placeholder="Enter your name"><br><br>
+            <input type="password" name="password" placeholder="Enter your password"><br><br>
+            <input type="email" name="email" placeholder="Enter you email"><br><br>
+            <input type="number" name="number" placeholder="Enter your mobile number"><br><br>
+            <input type="submit" value="Sign Up">
+            
+          </form>
+
+        </div>
+    </body>
+</html>

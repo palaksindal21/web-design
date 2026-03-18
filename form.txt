@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            input{
+
+                padding:10px;
+                border: 2px solid black;
+                border-radius: 5px;
+                font-family: cursive;
+
+            }
+
+            input[type=submit]{
+                padding:10px;
+                border: 2px solid coral;
+                border-radius: 5px;
+                background-color: coral;
+                font-family: cursive;
+                font-weight: bold;
+            }
+
+            input[type=reset]{
+                padding:10px;
+                border: 2px solid wheat;
+                border-radius: 5px;
+                background-color: wheat;
+                font-family: cursive;
+                font-weight: bold;
+            }
+
+            h1{
+                color: white;
+                font-family: cursive;
+            }
+
+            body{
+                text-align: center;
+                color:white;
+                background-image: url("C:\\Users\\palak\\Downloads\\background.jpg");
+                background-size: cover;
+                font-family: cursive;
+
+            }
+
+            select{
+                padding:10px;
+                border: 2px solid black;
+                border-radius: 5px;
+                font-family: cursive;
+            }
+
+            textarea{
+                padding:10px;
+                border: 2px solid black;
+                border-radius: 5px;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+       <center>
+          <h1>Registration Form</h1>
+          <form action="submit.html">
+            Name: <input type="name" name="name" placeholder="Enter your name"><br><br>
+            Password: <input type="password" name="password" placeholder="Enter your password"><br><br>
+            Email: <input type="email" name="email" placeholder="Enter your email"><br><br>
+            DOB: <input type="date" name="dob" placeholder="Enter your DoB"><br><br>
+            Gender: Male <input type="radio" name="gender">
+                    Female <input type="radio" name="gender"><br><br>
+            Mob. No.: <input type="number" name="number" placeholder="Enter your mobile number"><br><br>
+            State: <select name="state">
+                <option>Jammu and Kashmir</option>
+                <option>Himachal Pradesh</option>
+                <option>Punjab</option>
+                <option>Haryana</option>
+                <option>Delhi</option>
+                <option>Uttar Pradesh</option>
+                <option>Rajasthan</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Chhatisgarh</option>
+                <option>Uttarakhand</option>
+                <option>Arunachal Pradesh</option>
+                <option>Keral</option>
+                <option>Tamilnadu</option>
+                <option>Meghalay</option>
+                <option>Sikkim</option>
+            </select><br><br>
+            Address: <textarea value="Enter your address"></textarea><br><br>
+            Are you sure you want to submit this form? <input type="checkbox"><br><br>
+            <input type="submit" value="Register">
+            <input type="reset">
+          </form>
+       </center>
+    </body>
+</html>

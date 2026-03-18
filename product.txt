@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prpoduct</title>
+</head>
+
+ <style>
+
+         nav a{
+
+            text-decoration: none;
+            margin: 24px;
+            color:black;
+
+         }
+          
+         nav{
+
+            background-color: grey;
+            text-align: center;
+            padding:10px;
+            border-radius: 20px;
+        
+
+         }
+
+         nav a:hover{
+            background-color: darkgrey;
+            border: 2px solid black;
+            margin:17px;
+            padding:5px;
+         }
+
+         h1{
+
+            text-align: center;
+         }
+
+    </style>
+<body>
+    <nav>
+        <a href="navbar.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact us</h1>
+</body>
+</html>

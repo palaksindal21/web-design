@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/CSS" href="calculator.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div id="div1">
+        <input type="text" id="input1" name="num">
+        <input type="text" id="input2" name="num">
+        <input type="text" id="result" name="num">
+    </div>
+    <div id="div2">
+        <button id="1" onclick="press('1')">1</button>
+        <button id="2" onclick="press('2')">2</button>
+        <button id="3" onclick="press('3')">3</button>
+        <button id="btn1" onclick="add()">+</button><br>
+        <button id="4" onclick="press('4')">4</button>
+        <button id="5" onclick="press('5')">5</button>
+        <button id="6" onclick="press('6')">6</button>
+        <button id="btn2" onclick="subtract()">-</button><br>
+        <button id="7" onclick="press('7')">7</button>
+        <button id="8" onclick="press('8')">8</button>
+        <button id="9" onclick="press('9')">9</button>
+        <button id="btn3" onclick="multiply()">x</button><br>
+        <button id="0" onclick="press('0')">0</button>
+        <button id="btn4" onclick="divide()">/</button>
+        <button id="btn5" onclick="remainder()">%</button>
+        <button id="btn6" onclick="result()">=</button>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

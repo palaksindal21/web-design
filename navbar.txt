@@ -1,0 +1,198 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+
+    <style>
+
+         nav a{
+
+            text-decoration: none;
+            margin: 24px;
+            color:black;
+
+         }
+          
+         nav{
+
+            background-color: grey;
+            text-align: center;
+            padding:10px;
+            border-radius: 20px;
+        
+
+         }
+
+         nav a:hover{
+            background-color: darkgrey;
+            border: 2px solid black;
+            margin:17px;
+            padding:5px;
+         }
+
+         h1{
+
+            text-align: center;
+         }
+
+         #img img{
+
+            width:100%;
+            height: 750px;
+            margin:10px;
+         }
+
+         #div1,#div2,#div3,#div4{
+            border:2px solid black;
+            border-radius:10px;
+            float: left;
+            margin:20px;
+            margin-left: 23px;
+            padding:10px;
+            color:black;
+            font-family:cursive;
+            background-color: grey;
+            width:20%;
+            
+         }
+
+         .img{
+
+            border:2px solid black;
+            border-radius: 100%;
+         }
+
+         input{
+
+                padding:10px;
+                border: 2px solid gold;
+                border-radius: 5px;
+                font-family: cursive;
+
+            }
+
+            input[type=submit]{
+                padding:10px;
+                border: 2px solid gold;
+                border-radius: 5px;
+                background-color: gold;
+                font-family: cursive;
+                font-weight: bold;
+            }
+
+            input[type=reset]{
+                padding:10px;
+                border: 2px solid lightcoral;
+                border-radius: 5px;
+                background-color: lightcoral;
+                font-family: cursive;
+                font-weight: bold;
+            }
+
+            textarea{
+                padding:10px;
+                border: 2px solid gold;
+                border-radius: 5px;
+                font-family: cursive;
+            }
+
+            select{
+                padding:10px;
+                border: 2px solid gold;
+                border-radius: 5px;
+                font-family: cursive;
+            }
+
+             body{
+                text-align: center;
+                color:black;
+                font-family: cursive;
+
+            }
+
+    </style>
+</head>
+<body>
+   <div id="nav">
+    <nav>
+        <a href="navbar.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+   </div>
+
+   <div id="img">
+
+      <img src="C:\Users\palak\Downloads\mountain.jpg" alt="Mountain">
+
+   </div>
+
+   <div id="cards">
+       <div id="div1">
+         <h1>About</h1>
+         <img class="img" src="C:\Users\palak\Downloads\avtar.jpeg" alt="avtar" width="100px" height="95px">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, consectetur! Hic aut quaerat necessitatibus vel fuga blanditiis distinctio consequatur exercitationem ratione neque quam eligendi voluptates, repellat amet adipisci dolor ullam. Placeat fugiat natus cum quod fuga a, at si.
+       </div>
+
+       <div id="div2">
+         <h1>About</h1>
+         <img class="img" src="C:\Users\palak\Downloads\avtar.jpeg" alt="avtar" width="100px" height="95px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores quis labore quisquam mollitia quidem numquam consequuntur molestiae, placeat fuga omnis praesentium. Blanditiis aut ad totam delectus, dicta est neque, adipisci rerum deleniti odit in temporibus hic ea perferendis.
+       </div>
+
+       <div id="div3">
+         <h1>About</h1>
+         <img class="img" src="C:\Users\palak\Downloads\avtar.jpeg" alt="avtar" width="100px" height="95px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste officia dolores sed velit, sequi doloremque natus adipisci, obcaecati quia dicta corporis blanditiis vel doloribus. Quas odit mollitia perferendis odio consequatur ullam accusantium debitis esse dolore sed cum, at nobis. In.
+       </div>
+
+       <div id="div4">
+         <h1>About</h1>
+         <img class="img" src="C:\Users\palak\Downloads\avtar.jpeg" alt="avtar" width="100px" height="95px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste officia dolores sed velit, sequi doloremque natus adipisci, obcaecati quia dicta corporis blanditiis vel doloribus. Quas odit mollitia perferendis odio consequatur ullam accusantium debitis esse dolore sed cum, at nobis. In.
+       </div>
+
+   </div>
+
+   <div id="div5">
+      <center>
+      <h1>Registration Form</h1>
+
+      Name:<input type="text" name="name" placeholder="Enter your name"><br><br>
+      Password:<input type="password" name="password" placeholder="Enter your password"><br><br>
+      Email:<input type="email" name="email" placeholder="Enter your email"><br><br>
+      Contact:<input type="number" name="number" placeholder="Enter your Mobile number"><br><br>
+      Gender: Male<input type="radio" name="gender"> 
+              Female<input type="radio" name="gender"><br><br>
+      DOB: <input type="date" nmae="dob"><br><br>
+      State: <select name="state">
+         <option>Jammu and Kashmir</option>
+         <option>Punjab</option>
+         <option>Himachal Pradesh</option>
+         <option>Haryana</option>
+         <option>Delhi</option>
+         <option>Uttar pradesh</option>
+         <option>Rajasthan</option>
+         <option>Madhya Pradesh</option>
+         <option>Chhatisgarh</option>
+         <option>Maharashtra</option>
+         <option>Arunachal Pradesh</option>
+         <option>Karnatak</option>
+         <option>Keral</option>
+         <option>Tamilnadu</option>
+         <option>Meghalay</option>
+      </select><br><br>
+
+      Address: <textarea name="address">Enter your address</textarea><br><br>
+      <input type="submit" value="Register">
+      <input type="reset">
+
+
+      </center>
+
+   </div>
+   
+</body>
+</html>
