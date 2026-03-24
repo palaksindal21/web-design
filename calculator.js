@@ -28,3 +28,8 @@ function remainder(){
     let num2 = Number(document.getElementById("input2").value)
     alert(num1%num2)
 }
+
+// function press(''){
+//     let num1 = Number(document.getElementById("input1").value)
+//     let num2 = Number(document.getElementById("input2").value)
+// }
